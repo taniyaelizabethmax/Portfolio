@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("picture3.jpg");
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+
+
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+
+
+        h2 {
+            padding: 10px;
+            text-decoration: underline;
+            line-height: 48px;
+            width: 20%;
+            margin: auto;
+
+        }
+
+        #new {
+            font-size: 25px;
+            list-style-type: circle;
+            display: table;
+            margin-left: 320px;
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="workshop.html">Workshops</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+
+
+    </nav>
+
+    <h2>WORKSHOPS</h2>
+
+    <p>
+    <ul id="new">
+
+        <li>Workshop on Data Science Using Python by Association for Computing <br>Machinery, Kollam Chapter </li>
+        <br>
+        <li>Web Development Workshop -CUSAT</li><br>
+        <li> Microsoft AI Classroom-Microsoft </li><br>
+        <li> Android Study Jam using Kotlin</li><br>
+
+
+
+    </ul>
+    </p>
+</body>
+
+</html>
